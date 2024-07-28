@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/styles.css">
+    <title>Responsive Personal Portfolio</title>
+</head>
+<body>
+    <header class="head">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="Menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <!--Home page-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Deepak N</h1>
+            <h3>And I'm a <span class="multiple-text"> </span></h3>
+            <p>I am a Machine Learning Engineer skilled in Python, TensorFlow, and Keras, with a BTech in AI and Machine Learning from VIT-AP. I develop AI solutions, optimize neural networks, and utilize cloud platforms like AWS and Google Cloud. During my internship at Suvidha Foundation, I created models for face mask detection, speech recognition, and movie recommendations, boosting user engagement and efficiency.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/deepakn7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B81gY28XkRRG%2BMJBFLOKZCA%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:nagarajank14111974@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://wa.me/916374882446" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1ipmf5V-OIfZti_8kShdrz0VrowP90d-5/view?usp=drivesdk" class="btn" download target="_blank">Get My Resume</a>
+
+        </div>
+        <div class="home-img">
+            <img src="my pic1.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About page-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about pic.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2> 
+            <h3>Machine Learning Engineer</h3>
+            <p>I am a Machine Learning Engineer skilled in Python, TensorFlow, and Keras, with a BTech in AI and Machine Learning from VIT-AP. I develop AI solutions, optimize neural networks, and utilize cloud platforms like AWS and Google Cloud. During my internship at Suvidha Foundation, I created models for face mask detection, speech recognition, and movie recommendations, boosting user engagement and efficiency.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--Services page-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-chart-bar"></i>
+                <h3>Data Analysis Service</h3>
+                <p>Harness the full potential of your data with expert data analysis services. As a skilled Machine Learning Engineer, I specialize in transforming complex data into actionable insights. Leveraging tools like Python, TensorFlow, and Pandas, I offer comprehensive data preprocessing, advanced statistical modeling, and impactful data visualization. My experience with cloud platforms such as AWS and Google Cloud ensures scalable and efficient solutions tailored to your business needs. Whether optimizing processes or enhancing decision-making, my data analysis services are designed to drive tangible results and strategic growth.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>Machine Learning Models Service</h3>
+                <p>Transform your business with cutting-edge machine learning models! As a proficient Machine Learning Engineer, I specialize in designing and deploying advanced AI models tailored to your unique needs. Using tools like TensorFlow, Keras, and PyTorch, I build models for a variety of applications, from predictive analytics to complex neural network solutions. My expertise ensures high accuracy and performance, driving innovation and efficiency in your operations. Let's harness the power of machine learning to unlock new opportunities and elevate your business to the next level.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Projects Service</h3>
+                <p>Unlock the potential of Python for your business with expertly crafted Python projects. As an experienced Machine Learning Engineer, I deliver robust and scalable solutions using Python. Whether it's data analysis, automation, web development, or AI applications, my Python projects are tailored to meet your specific requirements. Leveraging libraries like Pandas, NumPy, and SciPy, I ensure efficient data processing and insightful analytics. Let's collaborate to create innovative Python solutions that enhance productivity and drive success.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGN -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1nflhw4FNCp-QrTIvuwOyhB1VrftYuI-V?usp=drive_link', '_blank')">
+            <img src="id card.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Id Card Detection ML Model</h4>
+                <p>Developed a ID card detection model using Python and OpenCV to accurately identify and extract information from scanned ID cards.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1Zrwmt25_wvffTVgtNiAfFGq6q3a59jka?usp=drive_link', '_blank')">
+            <img src="face mask.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Face Mask Detection ML Model</h4>
+                <p>Developed a face mask detection model using TensorFlow to identify individuals wearing masks in real-time. Ensured high accuracy and performance for effective implementation in public safety measures.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1nIsXv40tNzvZr9NyB3XW3Fj53okYxwij?usp=drive_link', '_blank')">
+            <img src="animal.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Animal Classification Model</h4>
+                <p>Developed an animal classification model using TensorFlow to accurately identify and categorize various animal species from images.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://github.com/DeepakN-vit/Netflix-Movie-Recommendation-System', '_blank')">
+            <img src="movie.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Movie Recommendation System</h4>
+                <p>Developed a Movie recommendation system using machine learning algorithms to provide personalized movie suggestions based on user preferences and behavior.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box" onclick="window.open('https://drive.google.com/drive/folders/1unnJTYepBfNmj9GEjcvTf2XsdI5uC8su?usp=drive_link', '_blank')">
+            <img src="handwriting.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Handwriting Classification System</h4>
+                <p>Developed a Handwriting classification system using TensorFlow to accurately recognize and categorize handwritten text.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="speech.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Speech recognition And Synthesis ML Model</h4>
+                <p>Developed a speech recognition model using TensorFlow for accurate transcription of spoken language into text. Created a speech synthesis model using TensorFlow and Tacotron to generate natural-sounding speech from text input.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div> 
+        </div>
+    </div>
+</section>
+
+
+    <!--CONTACT ME-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xjkbyeje" method="POST" target="_blank">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!--CONTACT ME-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @heresthecode | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icon Top">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
